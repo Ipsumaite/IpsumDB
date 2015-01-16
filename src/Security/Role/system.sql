@@ -1,0 +1,11 @@
+﻿CREATE ROLE [system]
+GO
+GRANT SELECT, INSERT,UPDATE, DELETE ON Schema ::core TO [system]
+GO
+GRANT SELECT, INSERT,UPDATE, DELETE ON Schema ::[event] TO [system]
+GO
+GRANT SELECT, INSERT,UPDATE, DELETE ON Schema ::geo TO [system]
+GO
+GRANT SELECT, INSERT,UPDATE, DELETE ON Schema ::ref TO [system]
+GO
+GRANT SELECT, INSERT,UPDATE, DELETE ON Schema ::temp TO [system]
