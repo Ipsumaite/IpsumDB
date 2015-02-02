@@ -1,9 +1,0 @@
-﻿CREATE USER [agent]
-	FOR LOGIN [agent]
-	WITH DEFAULT_SCHEMA = tmp
-
-GO
-
-GRANT CONNECT TO [agent]
-GO
-ALTER ROLE deviceapp ADD MEMBER [agent]
